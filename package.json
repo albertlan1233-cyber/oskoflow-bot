@@ -1,0 +1,43 @@
+{
+  "name": "oskoflow-quantum-bot",
+  "version": "2.0.0",
+  "description": "Hedge Fund Grade Quantum Analysis Bot for Discord with Institutional Trading Models",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js",
+    "setup": "npm install && node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "trading",
+    "options",
+    "quantum",
+    "hedge-fund",
+    "analysis",
+    "stocks",
+    "ai",
+    "institutional",
+    "quantitative"
+  ],
+  "author": "OskoFlow",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oskoflow/quantum-trading-bot"
+  },
+  "homepage": "https://github.com/oskoflow/quantum-trading-bot#readme",
+  "bugs": {
+    "url": "https://github.com/oskoflow/quantum-trading-bot/issues"
+  }
+}
